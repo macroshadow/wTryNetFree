@@ -38,6 +38,7 @@
                     <TextBlock FontFamily="{StaticResource Assistant ExtraLight}" Margin="30,0,30,0" FontSize="10.5pt" Foreground="#2B2A29">הזן כאן את מספר המזהה:</TextBlock>
                     <Separator Width="10" Height="5" Background="Transparent"/>
                     <TextBox Height="22" Margin="30,0,30,0" x:Name="txtid"/>
+                    <Button Click="btnPaste_Click" FontSize="10" Margin="114,0">לחץ כאן כדי להדביק את המזהה מהלוח</Button>
                     <Separator Width="10" Height="10" Background="Transparent"/>
                     <TextBlock Height="22" Margin="30,0,30,0" Foreground="Red" x:Name="txtErr"/>
                     <Separator Width="10" Height="0" Background="Transparent"/>
