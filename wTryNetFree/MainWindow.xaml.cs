@@ -68,13 +68,17 @@ namespace wTryNetFree
             p.WaitForExit();
             //אחרי שהוא יצא, יוצא גם מהתוכנית
             this.Close();
-            
         }
+        
+        private void btnPaste_Click(object sender, EventArgs e)
++       {
++           txtid.Text = Clipboard.GetText();
++       }
+
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             // סגור את התוכנית
             this.Close();
-
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
